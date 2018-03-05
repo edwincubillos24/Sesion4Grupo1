@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.edwinacubillos.sesion4grupo1.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Practicas"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+        android:id="@+id/ePracticas"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Avances"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:id="@+id/eAvances"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Proyecto"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:id="@+id/eProyecto"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Calcular"
+        android:onClick="onClickButton"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/tNotaF"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/eNotaF"/>
+</LinearLayout>

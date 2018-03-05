@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sesion4Grupo1</string>
+    <string name="Practicas">60 %</string>
+    <string name="Avances">20 %</string>
+    <string name="Proyecto">20 %</string>
+    <string name="Calcular">Calcular</string>
+    <string name="eNotaF">Nota Final</string>
+    <string name="Config">Configurar</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Cancelar">Cancelar</string>
+</resources>
